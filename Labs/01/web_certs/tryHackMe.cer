@@ -1,0 +1,97 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            f0:b3:b8:ea:a2:e9:60:3d:11:2e:2d:9a:1e:10:82:02
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: C=US, O=Google Trust Services, CN=WE1
+        Validity
+            Not Before: Sep 26 19:11:55 2025 GMT
+            Not After : Dec 25 20:11:41 2025 GMT
+        Subject: CN=tryhackme.com
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:e4:9b:ce:93:e5:6c:d0:b5:5a:43:a4:fd:24:2b:
+                    5f:7b:0d:d5:84:3a:21:77:28:c7:83:7e:1d:64:2a:
+                    c3:19:7f:e6:32:fe:2b:57:8e:6c:9e:84:64:bf:b4:
+                    f1:0e:ae:f8:54:3e:b4:54:78:58:84:c5:12:4b:2f:
+                    72:72:75:ad:d0
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                F4:08:7F:74:5F:A4:FB:56:7D:81:A0:DC:8F:75:E1:4B:5D:43:8F:3D
+            X509v3 Authority Key Identifier: 
+                90:77:92:35:67:C4:FF:A8:CC:A9:E6:7B:D9:80:79:7B:CC:93:F9:38
+            Authority Information Access: 
+                OCSP - URI:http://o.pki.goog/s/we1/8LM
+                CA Issuers - URI:http://i.pki.goog/we1.crt
+            X509v3 Subject Alternative Name: 
+                DNS:tryhackme.com, DNS:*.tryhackme.com
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.2.1
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://c.pki.goog/we1/OuqGbJkzwhU.crl
+
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : CC:FB:0F:6A:85:71:09:65:FE:95:9B:53:CE:E9:B2:7C:
+                                22:E9:85:5C:0D:97:8D:B6:A9:7E:54:C0:FE:4C:0D:B0
+                    Timestamp : Sep 26 20:11:56.437 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:21:00:99:E0:81:1C:54:DB:6F:29:91:3A:23:
+                                AC:98:73:38:E0:72:1F:90:5E:C8:9D:3C:C0:51:14:17:
+                                71:91:C9:10:F2:02:20:72:16:F4:53:D1:C3:04:B2:E2:
+                                9D:3C:EA:C0:29:C5:70:8F:3E:1A:2C:6F:5C:51:0F:13:
+                                82:A3:56:32:7A:B6:FB
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : DD:DC:CA:34:95:D7:E1:16:05:E7:95:32:FA:C7:9F:F8:
+                                3D:1C:50:DF:DB:00:3A:14:12:76:0A:2C:AC:BB:C8:2A
+                    Timestamp : Sep 26 20:11:56.880 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:46:02:21:00:94:C5:48:41:A9:8A:10:CE:4E:1F:55:
+                                65:3C:D0:A2:8C:B0:EF:5F:CD:08:3B:58:6D:4A:F8:A9:
+                                21:64:76:28:B0:02:21:00:89:58:A6:D0:92:60:72:E5:
+                                0B:65:DF:AE:98:9F:71:5C:44:69:2A:C2:07:58:D5:5C:
+                                BE:44:30:F0:DA:BB:86:55
+    Signature Algorithm: ecdsa-with-SHA256
+    Signature Value:
+        30:46:02:21:00:95:36:b1:56:b9:b3:18:98:d3:99:a6:8e:75:
+        99:ab:75:4c:b8:87:9a:6d:7a:2a:a4:30:a7:a7:bb:65:bc:43:
+        31:02:21:00:b5:fa:32:43:82:95:c2:13:5b:ee:f4:c8:87:76:
+        3a:ed:5b:38:44:fa:b8:df:0d:6e:7f:23:2e:2b:d0:08:d1:09
+-----BEGIN CERTIFICATE-----
+MIIDrTCCA1KgAwIBAgIRAPCzuOqi6WA9ES4tmh4QggIwCgYIKoZIzj0EAwIwOzEL
+MAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoG
+A1UEAxMDV0UxMB4XDTI1MDkyNjE5MTE1NVoXDTI1MTIyNTIwMTE0MVowGDEWMBQG
+A1UEAxMNdHJ5aGFja21lLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOSb
+zpPlbNC1WkOk/SQrX3sN1YQ6IXcox4N+HWQqwxl/5jL+K1eObJ6EZL+08Q6u+FQ+
+tFR4WITFEksvcnJ1rdCjggJYMIICVDAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAww
+CgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU9Ah/dF+k+1Z9gaDc
+j3XhS11Djz0wHwYDVR0jBBgwFoAUkHeSNWfE/6jMqeZ72YB5e8yT+TgwXgYIKwYB
+BQUHAQEEUjBQMCcGCCsGAQUFBzABhhtodHRwOi8vby5wa2kuZ29vZy9zL3dlMS84
+TE0wJQYIKwYBBQUHMAKGGWh0dHA6Ly9pLnBraS5nb29nL3dlMS5jcnQwKQYDVR0R
+BCIwIIINdHJ5aGFja21lLmNvbYIPKi50cnloYWNrbWUuY29tMBMGA1UdIAQMMAow
+CAYGZ4EMAQIBMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jLnBraS5nb29nL3dl
+MS9PdXFHYkprendoVS5jcmwwggEFBgorBgEEAdZ5AgQCBIH2BIHzAPEAdgDM+w9q
+hXEJZf6Vm1PO6bJ8IumFXA2XjbapflTA/kwNsAAAAZmHp1yVAAAEAwBHMEUCIQCZ
+4IEcVNtvKZE6I6yYczjgch+QXsidPMBRFBdxkckQ8gIgchb0U9HDBLLinTzqwCnF
+cI8+GixvXFEPE4KjVjJ6tvsAdwDd3Mo0ldfhFgXnlTL6x5/4PRxQ39sAOhQSdgos
+rLvIKgAAAZmHp15QAAAEAwBIMEYCIQCUxUhBqYoQzk4fVWU80KKMsO9fzQg7WG1K
++KkhZHYosAIhAIlYptCSYHLlC2XfrpifcVxEaSrCB1jVXL5EMPDau4ZVMAoGCCqG
+SM49BAMCA0kAMEYCIQCVNrFWubMYmNOZpo51mat1TLiHmm16KqQwp6e7ZbxDMQIh
+ALX6MkOClcITW+70yId2Ou1bOET6uN8Nbn8jLivQCNEJ
+-----END CERTIFICATE-----
